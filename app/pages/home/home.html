@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar class="geobar" danger="">
+        <ion-buttons start="">
+            <button royal="">
+                <ion-icon name="search">
+                </ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-buttons start="">
+            <ion-icon name="content" style="color:white">
+                城市
+            </ion-icon>
+        </ion-buttons>
+        <ion-searchbar (input)="getItems($event)" placeholder="搜索全球城市、酒店、景点" >
+        </ion-searchbar>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="home" no-padding>
+    <head-bar>
+    </head-bar>
+  <main-table></main-table>
+  <sub-list></sub-list>
+</ion-content>

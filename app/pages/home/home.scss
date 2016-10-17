@@ -1,0 +1,67 @@
+.home {
+  background-color: $main-back-color;
+}
+.bar-container{
+	padding: 5px;
+	background-color: $main-color-front;
+	color: white
+}
+.fiveballmenu{
+	display: flex;
+	flex-wrap:nowrap;
+	flex-direction:row;
+  margin-top: -25px;
+
+}
+.fiveballbutton{
+	flex-grow:1;
+  display: flex;
+	overflow: hidden;
+	flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  color: white;
+}
+.main-table{
+  margin-left: 4%;
+  width: 92%;
+  color: white;
+  background-color: $main-color-front;
+  border-color: $main-back-color;
+}
+.main-table-cell{
+  padding: 8px;
+}
+.suggetionProduit{
+  color: white;
+  margin-left: 25px;
+}
+.muchmore{
+  color:white;
+  margin-right: 10px;
+}
+.sublist{
+  color:white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.subjet-title.even{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  padding: 5%;
+}
+.subjet-title.odd{
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  padding: 5%;
+
+}
+.sub{
+  position: relative;
+}
